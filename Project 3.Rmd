@@ -67,7 +67,7 @@ plot(rules,method="graph")
 ```
 
 #Hypotesis two: Very good car
-In another way we would consider cars with high safety, low maintenance and which can have 4 or 5 and more persons a attractive car. Is it true? The results below are sorted by confidence.
+In another way we would consider cars with high safety, low maintenance and which can have 4 or 5 and more persons a attractive car. Is it true? The results below are sorted by confidence
 
 ```{r message = FALSE, warning = FALSE}
 rules.vgood<-apriori(cars, parameter=list(supp=0.001,conf = 0.08), 
